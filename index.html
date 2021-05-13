@@ -3,29 +3,92 @@
   <head>
     <meta charset="UTF-8">
     <title>Meu Portifolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <style>
+      h1 {
+        font-family: Itim;
+        text-align: center;
+        font-size: 50px;
+        color: whitesmoke;
+      }
+      
+      h2 {
+        ont-family: Itim;
+        text-align: center;
+        font-size: 30px;
+        color: whitesmoke;
+      }
+    
+      body {
+        background-color: #7209b7;
+      }
+
+      p {
+        color: whitesmoke;
+        font-family: fantasy;
+        font-size: 25px;
+        text-align: center;
+      }
+
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+      }
+      
+      .habilidades {
+        color: whitesmoke;
+        font-family: Itim;
+        font-size: 20;
+      }
+      
+      h2 {
+        color: whitesmoke;
+      }
+
+      a {
+        background-color: whitesmoke;
+        text-decoration: none;
+        padding: 15px;
+        color:#7209b7;
+        border-radius: 4px;
+        text-align: center;
+        margin: auto;
+      }
+      .circle {
+        border-radius: 100%;
+      }
+
+    </style>
   </head>
   <body>
     <h1>João Victor Rodrigues Del Papa</h1>
       <br><br>
-      <img src="/img/Minhafoto.jpg" alt="Foto de João Victor Rodrigues Del Papa" width="300px">
+      <img class="circle" src="/img/Minhafoto.jpg" alt="Foto de João Victor Rodrigues Del Papa" width="300px">
     
-    <p id="SobreMim">
+      <h2>Sobre Mim</h2>
+    
+      <p id="SobreMim">
       <em>
-        Meu nome è <strong>João Victor Rodrigues Del Papa</strong>, tenho 21 anos, sou naturalizado brasileiro,
-        gosto muito de tecnologia por isso o interesse em fazer o curso da trybe, sou uma pessoa bem tranquila,
+        Meu nome è <strong>João Victor Rodrigues Del Papa</strong>, tenho 21 anos, sou <strong>naturalizado brasileiro</strong>,
+        gosto muito de tecnologia por isso o interesse em fazer o curso da Trybe, sou uma pessoa bem tranquila,
         facil de conversar sempre interessado na opinião dos outros sobre o meu trabalho e tambem gosto muito de 
         ficar jogando no computador com meus amigos e fora da pamdemia gosto sair, beber, curtir a vida como qualquer outro
-        ser humano gostaria, moro em <strong>Horizonte - Minas Gerais.</strong>
+        ser humano gostaria, moro em <strong>Belo Horizonte - Minas Gerais.</strong>
       </em>
     </p>
     <br>
     
+    <h2>Habilidades</h2>
+
     <ul id="MinhasHabilidades">
-      <li>Comprometimento</li>
-      <li>Versatil (uma pessoa bem tranquila e que sabe se organizar)</li>
-      <li>Comunicativo</li>
-      <li>Calmo</li>
-      <li>Interessado em Aprender com os Erros</li>
+      <li class="habilidades">Comprometimento</li>
+      <li class="habilidades">Versatil (uma pessoa bem tranquila e que sabe se organizar)</li>
+      <li class="habilidades">Comunicativo</li>
+      <li class="habilidades">Calmo</li>
+      <li class="habilidades">Interessado em Aprender com os Erros</li>
     </ul>
     <br>
 
@@ -33,11 +96,19 @@
     <br>
     
     <h2><strong>Blog Favorito</strong></h2>
+    <p>
+      <em>
+      O Draft5 é como se fosse o UOL das noticia sobre o Counter Strike.
+      </em>
+    </p>
+    
+    
+    
     
     <a href="https://draft5.gg/" target="_blank">O Blog mais sinistro sobre Counter Strike</a>
-    <br><br>
+    <br><br><br>
     <a href="#SobreMim">Sobre Mim</a>
-    <br><br>
+    <br><br><br>
     <a href="#MinhasHabilidades">Minhas Habilidades</a>
 
 
